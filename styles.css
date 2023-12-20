@@ -1,0 +1,123 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+input{
+  border-radius: 3px;
+  border: 1px solid rgb(230, 230, 230);
+  background-color: rgb(244, 243, 243);
+}
+input::placeholder{
+ padding-left: .3rem;
+}
+p{
+  color: orange;
+  font-weight: 600;
+  font-size: .8rem;
+  margin: .5rem 0;
+}
+form{
+
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: rgb(228, 228, 228);
+}
+.contact_form{
+  max-width: 40%;
+  margin: 0 auto;
+  background: white;
+   padding: 2rem;
+}
+.form_container input{
+width: 100%;
+padding: .7rem;
+
+border: 1px solid grey;
+margin: .5rem 0;
+border-radius: 5px;
+padding: rem;
+
+}
+.dob_gender{
+  display: flex;
+  width: 100%;
+
+}
+.dob_container div{
+  display: flex;
+  width: 100%;
+  
+}
+.dob_container input{
+  width: 3rem;
+  height: 2rem;
+  background-color:rgb(233, 230, 230) ;
+  margin: 0 .3rem;
+
+
+}
+
+.gender_container div{
+  display: flex;
+}
+
+.gender_container input{
+  width: 100%;
+ padding: .5rem;
+  background-color:rgb(233, 230, 230) ;
+ 
+
+}
+.payment_container{
+  margin: 1rem 0;
+  width: 100%;
+}
+.payment_options {
+display: flex;
+width: 100%;
+}
+.payment_options input{
+  width: 50%;
+  padding: .6rem 1rem;
+  outline: none;
+}
+
+.payment_options .credit::placeholder{
+color: white;
+}
+.payment_options .credit{
+  background: orange;
+}
+.card_number input{
+  padding: .6rem 1rem;
+  width: 100%;
+  margin: .5rem 0;
+ 
+}
+.cvc_dropdown {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.option_container .cvc{
+  width: 50%;
+}
+.option_container select{
+padding: 1rem 2rem;
+
+}
+@media only screen and (max-width: 540px) {
+  .col-half {
+    width: 100%;
+    padding-right: 0;
+  }
+}

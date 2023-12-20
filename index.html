@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-d0zRd0vzOAMK4tkGxrwL4Vy1lHpbrZP6a/tdt/+n9cDb0LqtaIKJi9Pgm6FX5d84LEs2A+k/zB37jFAb2TJj3Q=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Form</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <form>
+        <div class="contact_form">
+          <div class="form_container">
+            <h2>Account</h2>
+            <input type="text" placeholder="Full Name">
+            <input type="text" placeholder="Email">
+            <input type="text" placeholder="Password">
+          </div>
+          <div class="dob_gender">
+            <div class="dob_container">
+              <p>Date of Birth</p>
+              <div>
+                <input type="text" placeholder="DD">
+                <input type="text" placeholder="MM">
+                <input type="text" placeholder="YY">
+              </div>
+            </div>
+            <div class="gender_container">
+              <p>Gender</p>
+              <div>
+                <input type="text" placeholder="Male">
+                <input type="text" placeholder="Female">
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="payment_container">
+            <p>Payment Details</p>
+            <div class="payment_options">
+              <input type="text" class="credit" placeholder="Credit Card">
+              <input type="text" class="paypal" placeholder="Paypal">
+            </div>
+            <div class="card_number">
+              <input type="text" placeholder="Card Number">
+            </div>
+
+
+            <div class="cvc_dropdown">
+              <input type="text" class="cvc" placeholder="Card Cvc">
+              <div class="option_container">
+                <select name="" id="">
+                  <option value=""></option>
+                  <option value=""></option>
+                </select>
+                <select name="" id="">
+                  <option value="1 Jan"> 1 Jan</option>
+                  <option value="2015">2015</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+
+</html>
